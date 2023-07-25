@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "coleta-preco"
+version = "0.1.0"
+description = ""
+authors = ["Diego <almeidadm@outlook.com>"]
+readme = "README.md"
+packages = [{include = "coleta_preco"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
